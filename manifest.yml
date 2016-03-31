@@ -1,0 +1,9 @@
+---
+applications:
+  - name: springangularjs
+    buildpack: java_buildpack
+    path: target/spring-angularjs-0.0.1-SNAPSHOT.jar
+services:
+    - configserver
+    - discovery
+    
